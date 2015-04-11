@@ -57,7 +57,7 @@ cmd_str[4]='command[check_filesystem]=/usr/lib64/nagios/plugins/check_filesystem
 cmd_idx[4]='command\[check_filesystem\]'
 cmd_str[5]='command[check_swap]=/usr/lib64/nagios/plugins/check_swap -w 50 -c 10'
 cmd_idx[5]='command\[check_swap\]'
-cmd_str[6]='command[check_load]=/usr/lib64/nagios/plugins/check_load -w 2,1,1 -c 3,1.5,1.2'
+cmd_str[6]='command[check_load]=/usr/lib64/nagios/plugins/check_load -w 1.0,0.75,0.5 -c 2.0,1.0,1.0'
 cmd_idx[6]='command\[check_load\]'
 
 # cmd_str[6]='dont_blame_nrpe=1'
